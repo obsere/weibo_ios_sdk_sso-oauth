@@ -308,6 +308,7 @@
 		18F78D76154528C6008467F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sinaweibo_ios_sdk_demo/sinaweibo_ios_sdk_demo-Prefix.pch";
@@ -323,6 +324,7 @@
 		18F78D77154528C6008467F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sinaweibo_ios_sdk_demo/sinaweibo_ios_sdk_demo-Prefix.pch";
 				INFOPLIST_FILE = "sinaweibo_ios_sdk_demo/sinaweibo_ios_sdk_demo-Info.plist";
